@@ -16,7 +16,7 @@ const Home = ({setSelectedPage}: Props) => {
              {/* MAIN HEADER */}
             
              {/* IMAGE */}
-             <img className='pt-[100px]' alt="logo" src= {MainPic}  />
+             <img className='pt-[80px]' alt="logo" src= {MainPic}  />
         </div>
        
     </section>
