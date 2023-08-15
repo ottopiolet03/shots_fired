@@ -14,6 +14,7 @@ Double click the search bar, so that your folder path is highlighted. Replace te
 This should open a Command Terminal in the folder 
 (on VS Code, opening a terminal while you are in the correct folder will do this for you)
 
+**Side Note**: do not do this in a folder that is on the cloud or somewhere that syncs with something else
 
 run the commands:
 
