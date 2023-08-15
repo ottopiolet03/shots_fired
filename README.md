@@ -18,7 +18,9 @@ This should open a Command Terminal in the folder
 run the commands:
 
 git clone https://github.com/ottopiolet03/shots_fired.git
+
 cd shots_fired
+
 npm i
 
 
@@ -30,6 +32,7 @@ go to folder where code is stored, it should have node_modules, public, and src 
 run commands:
 
 npm i
+
 npm run dev
 
 
