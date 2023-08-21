@@ -1,6 +1,5 @@
 import useMediaQuery from '@/hooks/useMediaQuery';
 import { SelectedPage } from '@/shared/types'
-import React from 'react'
 import MainPic from "@/assets/shots_fired_artsy.jpg"
 
 type Props = {

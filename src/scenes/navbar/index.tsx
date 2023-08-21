@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Bars3Icon, XMarkIcon} from '@heroicons/react/24/solid';
 import Logo from "@/assets/shots_fired_logo.jpg";
 import Link from './Link';

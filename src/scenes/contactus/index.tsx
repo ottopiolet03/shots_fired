@@ -9,7 +9,7 @@ type Props = {
 }
 
 export default function ContactUs({setSelectedPage}: Props) {
-  const inputStyle = `w-full mt-5 rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+  const inputStyle = `w-full mb-5 rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
   const {
     register,
     trigger,
