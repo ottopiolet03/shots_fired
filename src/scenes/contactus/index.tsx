@@ -22,7 +22,7 @@ export default function ContactUs({setSelectedPage}: Props) {
     }
   }
   return (
-    <section id={`#${SelectedPage.ContactUs}`} className='mx-auto w-5/6 pt-24 pb-42'>
+    <section id={`${SelectedPage.ContactUs}`} className='mx-auto w-5/6 pt-24 pb-42'>
       <motion.div onViewportEnter={()=> setSelectedPage(SelectedPage.ContactUs)}>
         {/* HEADER */}
         <motion.div className='md:w-3/5' initial='hidden' whileInView='visible' viewport={{once:true, amount: 0.5}}

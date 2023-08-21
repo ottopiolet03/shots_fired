@@ -13,6 +13,9 @@ function Link({
     setSelectedPage,
 }: Props) {
     const lowerCasePage = page.toLowerCase().replace(/ /g, "") as SelectedPage;
+   
+    var $anchor = document.getElementById(lowerCasePage);
+    console.log($anchor)
   return (
     <AnchorLink
     className={`${selectedPage === lowerCasePage ? "text-primary-500" : "" }

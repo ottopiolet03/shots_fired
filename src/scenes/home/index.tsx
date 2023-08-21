@@ -9,7 +9,7 @@ type Props = {
 const Home = ({setSelectedPage}: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-wdith:1060px)")
   return (
-    <section id='home' className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'> 
+    <section id={SelectedPage.Home} className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'> 
         {/* IMAGE and MAIN HEADER */}
         <div>
              {/* MAIN HEADER */}

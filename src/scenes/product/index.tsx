@@ -6,7 +6,7 @@ type Props = {
 
 const Product = ({setSelectedPage}: Props) => {
   return (
-    <div id={`#${SelectedPage.Product}`}> Product</div>
+    <div id={`${SelectedPage.Product}`}> Product</div>
   )
 }
 
